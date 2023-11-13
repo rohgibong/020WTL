@@ -3,49 +3,6 @@ body {
   padding: 0;
 }
 
-#header{
-  
-}
-
-#header_main{
-  position: relative; /* 이 요소에 대해 자식 요소들의 절대 위치를 설정할 수 있도록 함 */
-}
-
-#header_loginDiv{
-  position: absolute; /* 절대적 위치 지정  */
-  height: 20px;
-  width: 100%;
-  text-align: right;
-}
-
-.loginDivBtn{
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-
-  margin-right: 40px;
-}
-
-#joinBtn{
-  margin-right: 80px;
-}
-
-#header_contentDiv{
-  height: 120px;  /* 헤더의 전체 높이  */
-  line-height: 120px;
-}
-
 #content{
-  
-}
-
-#contentFrame{
-  min-height: 600px;
-  width: 100%;
-  border: none;
-}
-
-#footer{
-  height: 200px;
+  min-height: 500px;
 }
