@@ -13,7 +13,7 @@ a{
   display: flex; /* 한줄로 보여짐 */
   justify-content: space-between; /* 중간에 공백 넣어줌 */
    align-items: center;
-   background-color: antiquewhite;
+   background-color: rgb(250, 246, 228);
    padding: 8px 12px;
 }
 
@@ -32,7 +32,7 @@ a{
 
 #nav_menu li{
   padding: 8px 22px;
-  margin: 0px 30px;
+  margin: 0px 20px;
   cursor: pointer;
   text-align: center;
 }
@@ -53,13 +53,23 @@ a{
   padding: 8px 20px;
 }
 
+#nav_icons i{
+  cursor: pointer;
+}
+
 #nav_toogleBtn{
   display: none;
   position: absolute;
   height: 24px;
-  top: 30px;
+  top: 20px;
   right: 32px;
   font-size: 24px;
+}
+
+@media screen and (max-width: 1200px){
+  #nav_menu li{
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 1020px){
@@ -67,7 +77,11 @@ a{
     flex-direction: column;
   }
   #nav_logo{
+    height: 50px;
     margin: 0;
+  }
+  #nav_logo img{
+    height: 50px;
   }
   #nav_menu{
     display: none;

@@ -13,7 +13,7 @@
   </div>
   <ul id="nav_menu">
     <li>
-      <a href="">맛집 리스트</a>
+      <a href="./bbb.php">맛집 리스트</a>
     </li>
     <li>
       <a href="">점ㆍ메ㆍ추</a>
@@ -30,7 +30,7 @@
   </ul>
   <ul id="nav_icons">
     <li>
-      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-github" onclick="window.location.href='https://github.com/rohgibong/020WTL'"></i>
     </li>
     <li>
       <i class="fa-regular fa-envelope"></i>

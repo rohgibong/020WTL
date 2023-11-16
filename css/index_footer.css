@@ -1,0 +1,14 @@
+#footer {
+  padding-top: 3vw;
+  height: 7vw;
+  text-align: center;
+  font-size: 22px;
+  background-color: rgb(250, 246, 228);
+}
+
+@media screen and (max-width: 750px){
+  #footer {
+    padding-top: 0.6vw;
+    font-size: 2.7vw;
+  }
+}

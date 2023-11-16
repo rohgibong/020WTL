@@ -1,8 +1,92 @@
-body {
-  margin: 0;
-  padding: 0;
+#content{
+  background-color: rgb(250, 246, 228);
 }
 
-#content{
-  min-height: 500px;
+#content_first{
+  position: relative;
+  
+}
+
+#content_first span{
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  z-index: 1;
+  font-size: 9vw;
+  transform: translate(-50%, 0);
+  animation: slide 1.3s ease-out;
+  cursor: default;
+}
+
+@keyframes slide {
+  from{
+    top: 17%;
+    opacity: 0;
+  }
+  to{
+    top: 7%;
+    opacity: 1;
+  }
+}
+
+.backgroundImg{
+  width: 100%;
+  opacity: 0.6;
+}
+
+#content_second{
+  position: relative;
+
+}
+
+.lg-text{
+  position: absolute;
+  display: inline-block;
+  font-size: 5vw;
+  top: 15%;
+  left: 60%;
+  text-align: center;
+  z-index: 1;
+}
+
+#dynamic2{
+  font-size: 3vw;
+  top: 40%;
+}
+
+#dynamic3{
+  font-size: 3vw;
+  top: 50%;
+}
+
+.lg-text::after{
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  right: -5%;
+  width: 0.3vw;
+  height: 100%;
+  background-color: black;
+}
+
+#dynamic2::after, #dynamic3::after{
+  width: 0.15vw;
+}
+
+.lg-text:not(.active)::after {
+  display: none;
+}
+
+@media screen and (max-width: 1020px){
+  #content_first span{
+    font-size: 12vw;
+  }
+  #dynamic2{
+    font-size: 4vw;
+  }
+  
+  #dynamic3{
+    font-size: 4vw;
+  }
 }
