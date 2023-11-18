@@ -13,7 +13,7 @@
   </div>
   <ul id="nav_menu">
     <li>
-      <a href="#" onclick="alertMent();">맛집 리스트</a>
+      <a href="./wtl_restaurantList.php">맛집 리스트</a>
     </li>
     <li>
       <a href="#" onclick="alertMent();">점ㆍ메ㆍ추</a>

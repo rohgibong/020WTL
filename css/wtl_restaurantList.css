@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(250, 246, 228);
+}
+
+#header_nav{
+  margin: 11px 0px;
+}
+
+#nav_icons{
+  margin-top: 11px;
+}
+
+@media screen and (max-width: 1020px){
+  #header_nav{
+    margin: 0px;
+  }
+}
+
+.listTopDiv{
+  height: 120px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.listContentDiv{
+  min-height: 700px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

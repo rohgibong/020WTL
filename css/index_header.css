@@ -12,9 +12,9 @@ a{
 #header_nav{
   display: flex; /* 한줄로 보여짐 */
   justify-content: space-between; /* 중간에 공백 넣어줌 */
-   align-items: center;
-   background-color: rgb(250, 246, 228);
-   padding: 8px 12px;
+  align-items: center;
+  background-color: rgb(250, 246, 228);
+  padding: 8px 12px;
 }
 
 #nav_logo{
