@@ -6,3 +6,7 @@ toggleBtn.addEventListener('click', () => {
   menu.classList.toggle('active');
   icons.classList.toggle('active');
 });
+
+function alertMent(){
+  alert("개발중입니다..");
+}

@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(250, 246, 228);
+}
+
+#content{
+  height: 500px;
+  display: flex;
+  justify-content: center;  /* 수평 가운데정렬 */
+  align-items: center;  /* 수직 가운데정렬 */
+}
+
+#loginDiv{
+  height: 350px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#loginDiv h1{
+  font-size: 50px;
+}
+
+.loginInput{
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Cute Font', sans-serif;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: rgb(250, 246, 228);
+}
+
+.loginInput:focus{
+  outline: none;
+}
+
+button{
+  width: 250px;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: rgb(250, 246, 228);
+  font-family: 'Cute Font', sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+}

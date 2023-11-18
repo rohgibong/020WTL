@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(250, 246, 228);
+}
+
+#content{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#content h1{
+  margin-top: -20px;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+#menuImg{
+  height: 60vh;
+}

@@ -13,19 +13,19 @@
   </div>
   <ul id="nav_menu">
     <li>
-      <a href="./bbb.php">맛집 리스트</a>
+      <a href="#" onclick="alertMent();">맛집 리스트</a>
     </li>
     <li>
-      <a href="">점ㆍ메ㆍ추</a>
+      <a href="#" onclick="alertMent();">점ㆍ메ㆍ추</a>
     </li>
     <li>
-      <a href="">지도로 찾기</a>
+      <a href="#" onclick="alertMent();">지도로 찾기</a>
     </li>
     <li>
-      <a href="">구내식당</a>
+      <a href="./wtl_cafeteria.php">구내식당</a>
     </li>
     <li>
-      <a href="">개발자 QnA</a>
+      <a href="#" onclick="alertMent();">개발자 QnA</a>
     </li>
   </ul>
   <ul id="nav_icons">

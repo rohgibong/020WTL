@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../css/_index.css">
 </head>
 <body>
-  <?php include "./index_header.php";?>
+<?php include "./index_header.php";?>
 
   <div id="content">
 
