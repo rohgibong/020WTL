@@ -7,6 +7,7 @@ body{
   flex-direction: column;
   align-items: center;
   min-height: 700px;
+  padding-bottom: 5%;
 }
 
 .content h1{
@@ -60,23 +61,48 @@ body{
   visibility: hidden;
 }
 
-.inputText{
+.inputName{
   height: 30px;
   width: 90%;
   /* max-width: 200px; */
   border: none;
   border-bottom: 1px solid lightgray;
-  margin-left: 5%;
+  margin-left: 3%;
   /* padding-left: 10px; */
   font-size: 20px;
   font-family: 'Cute Font', sans-serif;
 }
 
 .inputFile{
-  margin-left: 5%;
-
+  margin-left: 3%;
 }
 
 .content table tr td:nth-child(2) input:focus{
   outline: none;
+}
+
+.contactNum{
+  width: 20%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Cute Font', sans-serif;
+}
+
+#contactNum1{
+  margin-left: 3%;
+}
+
+.categorySelect{
+  margin-left: 3%;
+}
+
+#map{
+  width: 95%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 3%;
 }
